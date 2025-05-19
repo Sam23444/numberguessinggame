@@ -1,4 +1,4 @@
-
+8
 Number Guessing Game
 
 Description
@@ -176,12 +176,5 @@ Save high scores and track player history.
 
 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
----
-
-Author
-
-Developed by [Your Name]. Contributions are welcome! Feel free to reach out via email or GitHub.
+This project is licensed under the MIT License. 
 
