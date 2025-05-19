@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* General reset and font */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 120px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #74b9ff;
+}
+
+.btn {
+  background-color: #0984e3;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #74b9ff;
+}
+
+.feedback {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #2d3436;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0984e3;
+}
+
+.toastify {
+  font-size: 0.9rem;
+}
